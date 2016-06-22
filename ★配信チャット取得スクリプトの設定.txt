@@ -1,6 +1,4 @@
-﻿※設定を反映させる場合はLimeChatを再起動するかスクリプトを再読み込みさせてください。
-
-★★★全体設定
+﻿★★★全体設定
 
 ◆自分のチャットの部屋
 [chat]:#simoyaka
@@ -24,19 +22,14 @@
 
 ◇棒読みちゃんを使うか(使うor使わない)
 [bouyomichan]:使う
-※ニコ生のコメントを読ませる場合はNCVで設定してください
 
 ◇棒読みちゃんで発言者の名前を読み上げるかどうか(読むor読まない)
-[bouyomiNick]:読まない
+[bouyomiNick]:読む
 
 ★★★<youtube>
 
 ◆youtubeのURL//https://www.youtube.com/watch?v=Lngfl2nfon0の形
 [Yurl]:https://www.youtube.com/watch?v=Lngfl2nfon0
-
-メモ欄
-S4U：https://www.youtube.com/watch?v=Lngfl2nfon0
-ゴミ箱：
 
 ◇youtubeの名前欄の色（対応色は本文と同じ）
 [Ycolor]:赤
@@ -55,6 +48,9 @@ S4U：https://www.youtube.com/watch?v=Lngfl2nfon0
 
 ★★★<FC2>
 
+◇取得プログラムの種類（Revin製orソイソ製）
+[Fwhich]:ソイソ製
+
 ◇FC2の名前欄の色（対応色は本文と同じ）
 [Fcolor]:青
 
@@ -64,10 +60,10 @@ S4U：https://www.youtube.com/watch?v=Lngfl2nfon0
 ◇匿名(27)の数字を消すか（消すor消さない）
 [Fnumber]:消さない
 
-◇取得プログラムの種類（Revin製orソイソ製）
-[Fwhich]:ソイソ製
+★★★<ニコ生>　…NiconamaCommentViewerとの連携（Flashコメントジェネレーター経由）
 
-★★★<ニコ生>…nicoフォルダ内のNCVoutput.dllをNCVのpluginフォルダに入れる
+◆FcgFileファイルの場所（変更必須）
+[Nlog]:C:\Users\owner1\AppData\Roaming\posite-c\NiconamaCommentViewer\NicoLiveComment.dat
 
 ◇ニコニコの名前欄（ニコ生(27)のニコ生の数字じゃない部分）
 [Nname]:ニコ生
